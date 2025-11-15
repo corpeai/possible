@@ -13,7 +13,7 @@ export default defineConfig({
       clientPort: 443,
     },
   },
-  publicDir: 'public',
+  publicDir: 'dist',
   plugins: [
     react(),
     componentTagger(),
